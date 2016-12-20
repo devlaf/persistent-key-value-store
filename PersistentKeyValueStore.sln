@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentKeyValueStore", "PersistentKeyValueStore\PersistentKeyValueStore.csproj", "{7F857364-5A08-4153-9A1A-484853DE7CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteWrapper", "SQLiteWrapper\SQLiteWrapper\SQLiteWrapper.csproj", "{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F857364-5A08-4153-9A1A-484853DE7CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F857364-5A08-4153-9A1A-484853DE7CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F857364-5A08-4153-9A1A-484853DE7CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F857364-5A08-4153-9A1A-484853DE7CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
