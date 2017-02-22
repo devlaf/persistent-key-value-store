@@ -2,6 +2,7 @@
 *.suo
 *.user
 *.userprefs
+.vs/
 
 # Build
 [Dd]ebug/

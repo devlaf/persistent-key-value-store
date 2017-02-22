@@ -1,23 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentKeyValueStore", "PersistentKeyValueStore\PersistentKeyValueStore.csproj", "{7F857364-5A08-4153-9A1A-484853DE7CFF}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersistentKeyValueStore", "src\PersistentKeyValueStore\PersistentKeyValueStore.csproj", "{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteWrapper", "SQLiteWrapper\SQLiteWrapper\SQLiteWrapper.csproj", "{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLiteWrapper", "libs\SQLiteWrapper\src\SQLiteWrapper\SQLiteWrapper.csproj", "{30F1355B-219D-4374-AFDE-F072187CA1C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7F857364-5A08-4153-9A1A-484853DE7CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F857364-5A08-4153-9A1A-484853DE7CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F857364-5A08-4153-9A1A-484853DE7CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F857364-5A08-4153-9A1A-484853DE7CFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA1E6F72-7E3F-4F92-B0AE-AFD54792CA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Debug|x64.ActiveCfg = Debug|x64
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Debug|x64.Build.0 = Debug|x64
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Debug|x86.ActiveCfg = Debug|x86
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Debug|x86.Build.0 = Debug|x86
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Release|x64.ActiveCfg = Release|x64
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Release|x64.Build.0 = Release|x64
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Release|x86.ActiveCfg = Release|x86
+		{40BA3DDF-FABA-4C6D-85FF-14C2341A9012}.Release|x86.Build.0 = Release|x86
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Debug|x64.ActiveCfg = Debug|x64
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Debug|x64.Build.0 = Debug|x64
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Debug|x86.ActiveCfg = Debug|x86
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Debug|x86.Build.0 = Debug|x86
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Release|x64.ActiveCfg = Release|x64
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Release|x64.Build.0 = Release|x64
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Release|x86.ActiveCfg = Release|x86
+		{30F1355B-219D-4374-AFDE-F072187CA1C1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

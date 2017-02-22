@@ -10,7 +10,6 @@ namespace PersistentKeyValueStore
 	/// up the format or provided a value that the library cannot understand.  If it is 
 	/// not possible to recover using default values, this exception will be thrown.
 	/// </summary>
-	[Serializable]
 	public class InvalidStoreException : Exception
 	{
 		public InvalidStoreException(string message)
@@ -18,9 +17,6 @@ namespace PersistentKeyValueStore
 
 		public InvalidStoreException(string message, Exception innerException)
 			: base(message, innerException) { }
-
-		protected InvalidStoreException(SerializationInfo info, StreamingContext ctxt) 
-			: base(info, ctxt) { }
 	}
 	#endregion
 
@@ -31,7 +27,6 @@ namespace PersistentKeyValueStore
 	/// is implemented using a database to persist the data, this exception would be 
 	/// thrown if the database connection could not be established.
 	/// </summary>
-	[Serializable]
 	public class StoreNotFoundException : Exception
 	{
 		public StoreNotFoundException(string message)
@@ -39,9 +34,6 @@ namespace PersistentKeyValueStore
 
 		public StoreNotFoundException(string message, Exception innerException)
 			: base(message, innerException) { }
-
-		protected StoreNotFoundException(SerializationInfo info, StreamingContext ctxt) 
-			: base(info, ctxt) { }
 	}
 	#endregion
 }

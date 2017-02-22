@@ -1,3 +1,3 @@
 [submodule "SQLiteWrapper"]
-	path = SQLiteWrapper
+	path = libs/SQLiteWrapper
 	url = https://github.com/devlaf/SQLiteWrapper
